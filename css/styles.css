@@ -42,3 +42,13 @@ h1 {
  * CODIGO AQUI
  */
 
+@media ( min-width: 768px ) {
+  .dos-columnas {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .dos-columnas article {
+    flex: 0 0 50%;
+  }
+}
